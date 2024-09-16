@@ -9,10 +9,10 @@
       }
     }
   ],
-  "routes": [
+  "rewrites": [
     {
-      "src": "/home",
-      "dest": "/App.js"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
