@@ -1,0 +1,93 @@
+/* Chatbot Styling */
+
+.chatbot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .chatbot-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  .fruit-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .fruit-card {
+    background-color: #fff;
+    border: 2px solid #3498db;
+    border-radius: 12px;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .fruit-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .fruit-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3498db;
+    margin-bottom: 10px;
+  }
+  
+  .fruit-description {
+    font-size: 14px;
+    color: #7f8c8d;
+  }
+  
+  .fruit-details {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #3498db;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .details-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .details-description {
+    font-size: 16px;
+    color: #2c3e50;
+  }
+  
+  .details-close {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .details-close:hover {
+    background-color: #2980b9;
+  }
+  
