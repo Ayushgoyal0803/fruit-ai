@@ -2,17 +2,17 @@
   "version": 2,
   "builds": [
     {
-      "src": "package.json",
+      "src": "fruit-ai-frontend/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "build"
+        "distDir": "fruit-ai-frontend/build"
       }
     }
   ],
-  "rewrites": [
+  "routes": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "src": "/(.*)",
+      "dest": "fruit-ai-frontend/$1"
     }
   ]
 }
