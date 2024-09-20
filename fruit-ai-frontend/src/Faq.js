@@ -5,7 +5,7 @@ const FAQ = () => {
   const [faqs, setFaqs] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/faqs')
+    axios.get('https://fruit-ai-5x84.onrender.com/api/faqs')
       .then((response) => {
         setFaqs(response.data);
       })
